@@ -1,0 +1,151 @@
+body{
+    background-color: #334756;
+    color: #fff;
+    text-align: center;
+}
+
+h1 {
+    font-size: 5rem;
+    color: #DBEDF3;
+    font-family: "Arvo", cursive;
+    text-shadow: 3px 0 #DA0463;
+}
+
+a {
+    text-align: left;
+    text-decoration: none;
+    font-family: "Arvo";
+    color: #fff;
+    font-size: 2rem;
+    padding: 10px;
+    margin-left: 30px;
+}
+
+p{
+    font-size: 1rem;
+    font-family: "Arvo",cursive;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    padding: 40px;
+}
+
+* #piano-keys {
+    margin: 0;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+#piano-keys{
+    background-color: #082032;
+}
+
+body#piano-keys  {
+    background: -webkit-linear-gradient(to bottom, #2c5364, #203a43, #0f2027);
+    background: linear-gradient(to bottom, #2c5364, #203a43, #0f2027);
+}
+
+.piano {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.key {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.white {
+    width: 9%;
+    min-width: 60px;
+    height: 70%;
+    background-color: white;
+    border: 1px solid #ccc;
+    color: #000;
+}
+
+.black {
+    width: 8%;
+    height: 45%;
+    margin-left: -4%;
+    margin-right: -4%;
+    z-index: 2;
+    background-color: black;
+    color: #fff;
+}
+
+.white.active {
+    background-color: #ccc;
+}
+
+.black.active {
+    background-color: #333;
+}
+
+/* Drum kit styling*/
+
+
+.w {
+    background-image:url("images/tom1.png");
+}
+  
+.a {
+    background-image:url("images/tom2.png");
+}
+  
+.s {
+    background-image: url("images/tom3.png");
+}
+  
+.d {
+    background-image: url("images/tom4.png");
+}
+  
+.j {
+    background-image: url("images/snare.png");
+}
+  
+.k {
+    background-image: url("images/kick.png");
+}
+  
+.l {
+    background-image: url("images/crash.png");
+} 
+
+.set {
+    margin: 10% auto;
+}
+   
+.drum {
+    outline: none;
+    border: 10px solid #404B69;
+    font-size: 5rem;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: #DA0463;
+    text-shadow: 3px 0 #DBEDF3;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+}
+
+footer {
+    color: #DBEDF3;
+    font-family: sans-serif;
+}
+  
+
